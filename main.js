@@ -530,7 +530,25 @@
               once: true,
           });
         },
-        
+        // date picker
+        datePicker: function () {
+          jQuery(document).ready(function () {
+            jQuery('#datepicker').datepicker({
+                format: 'dd-mm-yyyy',
+                startDate: '+1d'
+            });
+          });
+        },
+        timePicker: function () {
+          $(function() {
+            $('#timepicker').timepicker({
+              //timeFormat: 'h:mm p',
+              dynamic: false,
+              dropdown: true,
+              scrollbar: true
+            });
+          });
+        },
         // vesio activation
         vedioActivation: function (e) {
           $('#play-video, .play-video').on('click', function (e) {
