@@ -1,1 +1,1 @@
-# test-cdn
+# test-cdn for website js files
