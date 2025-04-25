@@ -570,7 +570,7 @@
 
           function close_video() {
               $('.video-overlay.open').removeClass('open').find('iframe').remove();
-          };
+          }
         },
 
         // search popup
@@ -627,7 +627,7 @@
 
         backToTopInit: function () {
           $(document).ready(function(){
-          "use strict";
+          
       
           var progressPath = document.querySelector('.progress-wrap path');
           var pathLength = progressPath.getTotalLength();
@@ -733,11 +733,12 @@
             window.addEventListener('load',function(){
               document.querySelector('#dinenos-load').classList.add("loaded")  ;
             }); 
-          };
+          }
 
         },
 
-megnifyingPopup: function (){
+
+        megnifyingPopup: function (){
           $('#open-popup').magnificPopup({
             items: [
               {
@@ -762,7 +763,6 @@ megnifyingPopup: function (){
             },
             type: 'image' // this is a default type
         });
-        
           $('#open-popupa').magnificPopup({
             items: [
               {
