@@ -50,7 +50,7 @@
             imJs.preloader();
             imJs.slideNav();
             imJs.onePageNav();
-            imJs.megnifyingPopup();
+            imJs.magnifyingPopup();
         },
         // counter up
         counterUp: function (e) {
@@ -738,8 +738,8 @@
         },
 
 
-        megnifyingPopup: function (){
-          $('#open-popup').megnificPopup({
+        magnifyingPopup: function (){
+          $('#open-popup').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-01.jpg',
@@ -763,7 +763,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupa').megnificPopup({
+          $('#open-popupa').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-02.jpg',
@@ -787,7 +787,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupb').megnificPopup({
+          $('#open-popupb').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-03.jpg',
@@ -811,7 +811,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupc').megnificPopup({
+          $('#open-popupc').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-04.jpg',
@@ -835,7 +835,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupd').megnificPopup({
+          $('#open-popupd').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-05.webp',
@@ -859,7 +859,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupe').megnificPopup({
+          $('#open-popupe').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-06.webp',
@@ -883,7 +883,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupf').megnificPopup({
+          $('#open-popupf').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-07.webp',
@@ -907,7 +907,7 @@
             },
             type: 'image' // this is a default type
         });
-          $('#open-popupg').megnificPopup({
+          $('#open-popupg').magnificPopup({
             items: [
               {
                 src: 'assets/images/gallery/gallery-img-08.webp',
