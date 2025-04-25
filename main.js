@@ -738,31 +738,7 @@
         },
 
 
-        megnifyingPopup: function (){
-          $('#open-popup').magnificPopup({
-            items: [
-              {
-                src: 'assets/images/gallery/gallery-img-01.jpg',
-                title: 'Gallery 01'
-              },
-              {
-                src: 'assets/images/gallery/gallery-img-02.jpg',
-                title: 'Gallery 02'
-              },
-              {
-                src: 'assets/images/gallery/gallery-img-03.jpg',
-                title: 'Gallery 03'
-              },
-              {
-                src: 'assets/images/gallery/gallery-img-04.jpg',
-                title: 'Gallery 04'
-              },
-            ],
-            gallery: {
-              enabled: true
-            },
-            type: 'image' // this is a default type
-        });
+        
           $('#open-popupa').magnificPopup({
             items: [
               {
